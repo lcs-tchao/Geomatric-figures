@@ -11,7 +11,7 @@ import SwiftUI
 struct Geomatric_figuresApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ParallelgramView()
         }
     }
 }

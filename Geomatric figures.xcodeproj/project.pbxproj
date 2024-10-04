@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AFA154282CAECF62003D9053 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA154222CAECF62003D9053 /* Preview Assets.xcassets */; };
+		AFA154292CAECF62003D9053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA154242CAECF62003D9053 /* Assets.xcassets */; };
+		AFA1542B2CAECF62003D9053 /* Geomatric_figuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA154262CAECF62003D9053 /* Geomatric_figuresApp.swift */; };
+		AFA1542E2CAED0DF003D9053 /* ParallelgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1542D2CAED0DF003D9053 /* ParallelgramView.swift */; };
+		AFA154312CAED1A8003D9053 /* parallelgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA154302CAED1A8003D9053 /* parallelgram.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AFA153FD2CAECC21003D9053 /* Geomatric figures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geomatric figures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA154222CAECF62003D9053 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFA154242CAECF62003D9053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA154262CAECF62003D9053 /* Geomatric_figuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geomatric_figuresApp.swift; sourceTree = "<group>"; };
+		AFA1542D2CAED0DF003D9053 /* ParallelgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelgramView.swift; sourceTree = "<group>"; };
+		AFA154302CAED1A8003D9053 /* parallelgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parallelgram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AFA153FF2CAECC21003D9053 /* Geomatric figures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Geomatric figures";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AFA153FA2CAECC21003D9053 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		AFA153F42CAECC21003D9053 = {
 			isa = PBXGroup;
 			children = (
-				AFA153FF2CAECC21003D9053 /* Geomatric figures */,
+				AFA154272CAECF62003D9053 /* Geomatric figures */,
 				AFA153FE2CAECC21003D9053 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,42 @@
 				AFA153FD2CAECC21003D9053 /* Geomatric figures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AFA154232CAECF62003D9053 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFA154222CAECF62003D9053 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFA154272CAECF62003D9053 /* Geomatric figures */ = {
+			isa = PBXGroup;
+			children = (
+				AFA154262CAECF62003D9053 /* Geomatric_figuresApp.swift */,
+				AFA1542F2CAED153003D9053 /* Model */,
+				AFA1542C2CAED063003D9053 /* Views */,
+				AFA154232CAECF62003D9053 /* Preview Content */,
+				AFA154242CAECF62003D9053 /* Assets.xcassets */,
+			);
+			path = "Geomatric figures";
+			sourceTree = "<group>";
+		};
+		AFA1542C2CAED063003D9053 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFA1542D2CAED0DF003D9053 /* ParallelgramView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFA1542F2CAED153003D9053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFA154302CAED1A8003D9053 /* parallelgram.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AFA153FF2CAECC21003D9053 /* Geomatric figures */,
 			);
 			name = "Geomatric figures";
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA154282CAECF62003D9053 /* Preview Assets.xcassets in Resources */,
+				AFA154292CAECF62003D9053 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA1542E2CAED0DF003D9053 /* ParallelgramView.swift in Sources */,
+				AFA1542B2CAECF62003D9053 /* Geomatric_figuresApp.swift in Sources */,
+				AFA154312CAED1A8003D9053 /* parallelgram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
